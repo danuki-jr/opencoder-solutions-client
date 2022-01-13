@@ -1,0 +1,18 @@
+.maintenanceContainer {
+    height: 100vh;
+    position: relative;
+    background: linear-gradient(95deg, #fea858 40%, #ed765e 100%);
+}
+
+.logo {
+    width: 16em;
+    height: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.contentContainer {
+    height: 75vh;
+    text-align: center;
+    color: #fff;
+}

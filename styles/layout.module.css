@@ -1,0 +1,136 @@
+
+
+.noMaxWidth{
+    max-width: none !important;
+}
+
+.headerContainer{
+    height: 10vh;
+    background-color: #FF9800;
+    color: #272727;
+    align-items: center;
+}
+
+.headerTitle {
+    font-weight: bold !important;
+}
+
+.headerLink {
+    display: inline-block;
+    font-weight: bold !important;
+}
+
+.leftSection {
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 2em;
+    width: 30%;
+}
+
+.leftSectionLink {
+    cursor: pointer;
+}
+
+.leftSectionImageDiv {
+    width: 4em;
+    height: 4em;
+}
+
+.leftSectionImage {
+    height: 100%;
+}
+
+.rightSection {
+    display: inline-block;
+    text-align: right;
+    padding-right: 2em;
+    width: 70%;
+}
+
+.footer {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    text-align: center;
+    background-color: #151515;
+    color: #fff;
+}
+
+.footerDescription {
+    font-size: 13px !important;
+}
+
+.scrollToTop {
+    position: fixed;
+    bottom: 1em;
+    right: 1em;
+}
+
+.fabScrollToTop {
+    background-color: #e3603a !important;
+    color: #fff !important;
+}
+
+/** Added by RG */
+.appHeader {
+    background: #fea858 !important;
+    /* background: linear-gradient(95deg, #fea858 40%, #ed765e 100%); */
+    box-shadow: none !important;
+}
+
+.indexHeader {
+    background: transparent !important;
+    box-shadow: none !important;
+}
+
+.appHeader.shadow {
+    box-shadow: 0px 2px 4px -1px rgb(0 0 0 / 20%), 
+    0px 4px 5px 0px rgb(0 0 0 / 14%), 
+    0px 1px 10px 0px rgb(0 0 0 / 12%) !important;
+    transition: all 0.5s ease;
+}
+
+.indexHeader.shadow {
+    background: #fea858 !important;
+    box-shadow: 0px 2px 4px -1px rgb(0 0 0 / 20%), 
+    0px 4px 5px 0px rgb(0 0 0 / 14%), 
+    0px 1px 10px 0px rgb(0 0 0 / 12%) !important;
+    transition: all 0.5s ease;
+}
+
+.appLogo {
+    width: 16em;
+    height: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.appLogo.smLogo {
+    width: 12em;
+    transition: all 0.5s ease;
+}
+  
+.appMenu {
+    font-weight: 600 !important;
+    size: 18px;
+    margin-left: 35px !important;
+}
+
+.appToolbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.appDrawer {
+    padding: 20px 30px;
+}
+
+.indexMain {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+/** End by RG */
+

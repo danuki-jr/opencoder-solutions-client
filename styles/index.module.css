@@ -1,0 +1,146 @@
+.container {
+    padding-top: 5em;
+    padding-bottom: 5em;
+    background-color: #424242;
+    color: rgb(236, 236, 236);
+    align-items: center;
+    text-align: center;
+}
+
+.containerAlternate {
+    background-color: rgb(236, 236, 236);
+    color: #424242;
+}
+
+.descriptionContainer {
+    padding-top: 3em;
+    text-align: left;
+}
+
+.title {
+    font-weight: bold !important;
+}
+
+.subTitle{
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-weight: bold !important;
+    font-style: italic;
+}
+
+.descriptionImage {
+    width: 100%;
+}
+
+.descriptionImageContainer {
+    align-items: center;
+}
+
+.descriptionImageGrid {
+    padding: 3em !important;
+}
+
+.contactUsIcon {
+    box-shadow: none !important;
+    background-color: transparent !important;
+    cursor: default !important;
+    color:white !important;
+}
+
+.contactUsLink {
+    cursor: pointer;
+}
+
+.contactUsDescription{
+    display: inline-block;
+}
+
+.servicesContainer > div{
+    padding-left: 7vw;
+}
+
+/** Added by RG */
+.homeContainer {
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    background-image: url('../public/images/bg-image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.homeOverlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: #bf8b7c;
+    opacity: 0.6;
+    /* background: linear-gradient(95deg, #fea858 40%, #ed765e 100%);
+    z-index: -12; */
+}
+
+/* @media (min-width: 1024px) {
+    .homeOverlay {
+        transform: skewY(-11deg);
+        transform-origin: 0;
+    }
+} */
+
+.sectionTitle {
+    font-weight: 600 !important;
+    color: #e3603a;
+}
+
+.sectionTagline {
+    font-weight: 500 !important;
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+}
+
+.timelineDot {
+    background-color: #fca159 !important;
+    padding: 6px !important;
+}
+
+.serviceContainer {
+    background: linear-gradient(95deg, #fea858 40%, #ed765e 100%);
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+
+.serviceItem {
+    background-color: rgb(255 255 255 / 40%);
+    border-radius: 10px;
+    padding: 40px 30px;
+    text-align: center;
+}
+
+.serviceItem .icon {
+    background-color: #e55f39;
+    border-radius: 50%;
+    color: #fff;
+    width: 3em;
+    height: 3em;
+    padding: 8px;
+}
+
+.serviceItem:hover {
+    background-color: #e55f39;
+    color: #fff;
+    transition: all 0.5s ease;
+}
+
+.serviceItem:hover .icon {
+    background-color: #fff;
+    color: #e55f39;
+    transition: all 0.5s ease;
+}
+
+.contactContainter {
+    background-color: #232323;
+    color: #fff;
+}
+/** End by RG */

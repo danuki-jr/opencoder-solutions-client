@@ -1,0 +1,64 @@
+.containerXPadding {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+@media (min-width: 600px) {
+    .containerXPadding {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+}
+
+.containerYPadding {
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+
+.bgWhite {
+    background-color: white;
+}
+
+.defaultTextColor {
+    color: #e3603a;
+}
+
+.overflowHide {
+    overflow: hidden !important;
+}
+
+.whiteText {
+    color: #fff !important;
+}
+
+.f500 {
+    font-weight: 500 !important;
+}
+
+.lh2 {
+    line-height: 2 !important;
+}
+
+.paddingMd {
+    padding: 15px !important;
+}
+
+.paddingTopSm {
+    padding-top: 10px !important;
+}
+
+.paddingTopMd {
+    padding-top: 15px !important;
+}
+
+.paddingTopLg {
+    padding-top: 30px !important;
+}
+
+.textCenter {
+    text-align: center !important;
+}
+
+.textShadow {
+    text-shadow: 2px 2px 5px rgb(0 0 0 / 30%) !important;
+}
